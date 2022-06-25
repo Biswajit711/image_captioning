@@ -10,7 +10,7 @@ from model import EncoderCNN, DecoderRNN
 from torch.nn.utils.rnn import pack_padded_sequence
 from torchvision import transforms
 
-
+# fr test
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
